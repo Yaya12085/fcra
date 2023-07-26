@@ -1,0 +1,25 @@
+{
+  "name": "fcra",
+  "version": "1.0.5",
+  "description": "commandline to format new react app by deleting unnecessery files and folders",
+  "main": "fcra.js",
+  "type": "module",
+  "bin": {
+    "fcra": "./fcra.js"
+  },
+  "repository": "https://github.com/Yaya12085/fcra.git",
+  "author": "Yaya12085 <yayamohamed883@gmail.com>",
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "ora": "^6.3.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "execa": "^7.1.1"
+  }
+}
